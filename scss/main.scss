@@ -93,3 +93,30 @@ img {
   &-inner {
   }
 }
+
+// Home
+
+#home {
+  &-a {
+    .specials {
+      margin-top: 3rem;
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(4, 1fr);
+      .fa {
+        &-js {
+          color: #f7df1e;
+        }
+        &-react {
+          color: #61dafb;
+        }
+        &-html5 {
+          color: #e34c26;
+        }
+        &-css3 {
+          color: #264de4;
+        }
+      }
+    }
+  }
+}

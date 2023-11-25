@@ -149,4 +149,11 @@ img {
       }
     }
   }
+  // Home Section C
+  &-c {
+    .process {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
 }
